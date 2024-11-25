@@ -1,0 +1,93 @@
+/* Terminal Style */
+#output {
+    white-space: pre-wrap; /* Preserves whitespace and formatting */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 400px;
+    overflow-y: auto;
+    line-height: 1.6;
+}
+
+.command-output {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #333;
+    border-radius: 5px;
+    border: 1px solid #444;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+}
+
+#terminal {
+    width: 80%;
+    max-width: 800px;
+    height: 80%;
+    overflow-y: auto;
+    border: 2px solid #00FF00;
+    padding: 10px;
+    box-shadow: 0 0 10px #00FF00;
+}
+
+#output {
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+#input-line {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 5px;
+    color: #00FF00;
+}
+
+#input {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    color: #00FF00;
+    outline: none;
+    font-size: 1rem;
+}
+
+/* Neon Theme */
+body.neon {
+    background: radial-gradient(circle, #0f0 10%, #000 100%);
+    color: #ff0;
+    text-shadow: 0px 0px 5px #ff0;
+}
+
+/* CRT Theme */
+body.crt {
+    background: #020;
+    color: #33ff33;
+    text-shadow: 0px 0px 2px #33ff33;
+}
